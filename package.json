@@ -34,7 +34,9 @@
     "prettier": "^2.8.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.3",
-    "vite-plugin-eslint": "^1.8.1"
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-imagemin": "^0.6.1",
+    "vite-plugin-svg-icons": "^2.0.1"
   },
   "lint-staged": {
     "**/*.{js,jsx,tsx,ts}": [
