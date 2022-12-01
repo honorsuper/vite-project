@@ -40,10 +40,6 @@
     "**/*.{js,jsx,tsx,ts}": [
       "npm run lint:script",
       "git add ."
-    ],
-    "**/*.{less}": [
-      "npm run lint:style",
-      "git add ."
     ]
   }
 }
