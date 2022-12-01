@@ -1,4 +1,4 @@
-import "./index.less";
+import './index.less';
 
 function App() {
   return <div className="App">my vite config</div>;
