@@ -27,5 +27,12 @@ export default defineConfig({
         additionalData: `@import "${variablePath}";`
       }
     }
+  },
+  resolve: {
+    // 别名配置
+    alias: {
+      '@': path.join(__dirname, 'src'),
+      src: path.join(__dirname, 'src')
+    }
   }
 });
